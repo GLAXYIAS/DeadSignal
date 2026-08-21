@@ -888,8 +888,6 @@
             A new corridor will be generated
           </p>
         `;
-
-        document.getElementById("start-btn").onclick = resetGame;
       }
 
       function killEnemy(enemy) {
@@ -1621,7 +1619,11 @@
           pulseKick();
         });
 
-      ui.start.onclick = resetGame;
+            document.addEventListener("click", (event) => {
+        if (event.target.closest("#start-btn")) {
+          resetGame();
+        }
+      });
 
       requestAnimationFrame(gameLoop);
     })();
