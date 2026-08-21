@@ -1,86 +1,26 @@
 # Dead Signal
 
-Dead Signal is a game built from the ground up by me, focused on creating an unsettling and immersive experience through atmosphere, exploration, and gameplay.
+Null X Interactive 2D containment shooter.
 
-## About
+Hold the facility hallway. Hostiles come through bay doors. After each wave the armory opens so you can buy guns and patch-ups with credits.
 
-**Dead Signal** is an independently developed game designed to create a mysterious and tense environment where players are left to figure out what is happening around them.
+## Play
 
-The game combines exploration, atmosphere, and interactive elements to create an experience that gradually reveals more about its world.
+Open [index.html](index.html) in a browser, or use GitHub Pages if enabled on this repo.
 
-## Features
+## Controls
 
-* Atmospheric and unsettling environments
-* Exploration-focused gameplay
-* Interactive elements
-* Custom game systems and mechanics
-* Original design and development
-* Web-based gameplay
-* Lightweight and accessible
+- A / D — walk the hall
+- W / S — depth
+- Mouse — aim and fire
+- R — reload
+- Space — pulse kick
+- E or B — armory (between waves)
+- 1–4 — switch owned guns
 
-## Gameplay
+## Changes
 
-Explore the world of Dead Signal and pay attention to your surroundings.
-
-Not everything is immediately explained, and discovering what is happening is part of the experience.
-
-## Development
-
-Dead Signal was developed independently by me.
-
-The project is continuously being worked on, with new improvements, mechanics, fixes, and content being added over time.
-
-## Running the Game
-
-If you're viewing this repository through GitHub Pages, the game can be played directly through the website.
-
-You can also run the project locally by cloning the repository and opening the appropriate HTML file in a browser.
-
-```bash
-git clone https://github.com/your-username/dead-signal.git
-cd dead-signal
-```
-
-Then open the game's main `index.html` file in your browser.
-
-## Project Structure
-
-```text
-Dead-Signal/
-├── index.html
-├── css/
-├── js/
-├── assets/
-├── images/
-└── README.md
-```
-
-The exact structure may change as development continues.
-
-## Credits
-
-**Developer:** Me
-
-Dead Signal is an independently developed project. All original game design, programming, and development work is credited to the creator of this repository.
-
-## Status
-
-Dead Signal is currently in development.
-
-Features and content may change between versions.
-
-## License
-
-All rights reserved unless otherwise stated.
-
-The source code and assets contained within this repository may not be copied, redistributed, modified, or republished without permission from the creator.
-
-## Contact
-
-For questions, suggestions, bug reports, or other inquiries, open an issue in this repository.
-
----
-
-**Dead Signal**
-
-*Something is wrong. You just haven't figured out what yet.*
+- Scrolling 2D hallway with labeled bay doors
+- Wave loop actually continues after wave 1 (old rest timer never reset)
+- Armory shop: Field Patch, Trauma Kit, mag crates, Scatter Blaster, Needle SMG, Rail Lance
+- Custom SVG touch controls, no emoji
